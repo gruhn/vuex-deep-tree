@@ -1,0 +1,26 @@
+{
+  "name": "vuex-deep-tree",
+  "version": "0.1.0",
+  "description": "",
+  "source": "src/vuex-deep-tree.js",
+  "main": "dist/vuex-deep-tree.js",
+  "module": "dist/vuex-deep-tree.mjs",
+  "unpkg": "dist/vuex-deep-tree.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "homepage": "https://github.com/gruhn/vuex-deep-tree#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gruhn/vuex-deep-tree"
+  },
+  "author": "Niklas Gruhn",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
